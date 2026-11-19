@@ -1,0 +1,19 @@
+{
+  "MOF": ["metal-organic framework", "金属有机框架", "金属有机骨架"],
+  "缓冲液": ["buffer", "buffer solution"],
+  "电子顺磁共振": ["EPR", "electron paramagnetic resonance"],
+  "半数抑制浓度": ["IC50", "IC_50"],
+  "酶活": ["enzyme activity", "enzymatic activity"],
+  "金属有机框架": ["MOF", "metal-organic framework"],
+  "缓释": ["sustained release", "controlled release", " sustained-release"],
+  "qPCR": ["quantitative PCR", "实时荧光定量", "RT-qPCR"],
+  "Western blot": ["WB", "免疫印迹"],
+  "X射线衍射": ["XRD", "X-ray diffraction"],
+  "透射电镜": ["TEM", "transmission electron microscopy"],
+  "扫描电镜": ["SEM", "scanning electron microscopy"],
+  "核磁共振": ["NMR", "nuclear magnetic resonance"],
+  "高效液相色谱": ["HPLC", "high-performance liquid chromatography"],
+  "密度泛函理论": ["DFT", "density functional theory"],
+  "过硫酸铵": ["APS", "ammonium persulfate"],
+  "聚丙烯酰胺凝胶电泳": ["SDS-PAGE", "PAGE"]
+}

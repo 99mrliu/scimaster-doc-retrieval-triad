@@ -1,0 +1,42 @@
+{
+  "_comment": "示意账本（演示数据，非正式案例结果）。quote 均须能在对应文件逐字命中。",
+  "claims": [
+    {
+      "claim_id": "c01",
+      "question_id": "q1",
+      "claim_text": "终稿规定的缓冲液配方为 50 mM Tris-HCl, pH 7.4, 150 mM NaCl, 1 mM EDTA。",
+      "evidence": [
+        {
+          "source_file": "项目ALPHA/开题报告_终稿_2023-06-15.md",
+          "source_sha256": "<登记时填入真实哈希>",
+          "page": 1,
+          "section": "## 2 实验设计",
+          "quote": "缓冲液配方：50 mM Tris-HCl, pH 7.4, 150 mM NaCl, 1 mM EDTA，室温保存。",
+          "obtained_via": "grep 缓冲液",
+          "filter_check": "满足：version=终稿, project_id=NSFC-82373621"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "Tris 终浓度",
+      "question_id": "q1",
+      "positions": [
+        {"value": "50 mM", "source_file": "项目ALPHA/开题报告_终稿_2023-06-15.md", "page": 1, "quote": "缓冲液配方：50 mM Tris-HCl"},
+        {"value": "20 mM", "source_file": "项目ALPHA/开题报告_v2_修订_2023-05-10.md", "page": 1, "quote": "缓冲液配方：20 mM Tris-HCl"}
+      ],
+      "resolution": "以终稿 50 mM 为准",
+      "resolution_basis": "README 行政备注：终稿取代 v1/v2"
+    }
+  ],
+  "not_found": [
+    {
+      "question_id": "q9",
+      "sought": "2019 年扫描记录中的对照组数值",
+      "searches": ["grep 对照组", "browse scan_旧记录.pdf"],
+      "conclusion": "无法确定",
+      "reason": "扫描件无文本层，运行环境无 OCR"
+    }
+  ]
+}
